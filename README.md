@@ -7,7 +7,6 @@ Minio is an open-source object storage server compatible with the Amazon S3 clou
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Accessing Minio](#accessing-minio)
-- [Managing Minio](#managing-minio)
 
 
 ## Prerequisites

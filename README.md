@@ -28,22 +28,28 @@ Before deploying Minio, ensure you have the following:
 ```bash 
 
 kubectl create namespace minio
-
+```
 
 ### Step 2: Deploy Minio with Persistent Storage
 
 
+```bash 
+
+kubectl apply -f minio-pvc.ymal
+```
+
 ### Apply the provided Kubernetes YAML manifest to deploy Minio:
 
----bash
+```bash
 
 kubectl apply -f minio-deployment.yaml
-
+```
 
 ### Step 3: Verify the Deployment
 
----bash
-
+```bash
 kubectl get pods -n minio
-kubectl get svc -n minio
+kubectl get svc -n minio 
+```
 
+### Minio will be accessible at the external IP provided by the LoadBalancer.

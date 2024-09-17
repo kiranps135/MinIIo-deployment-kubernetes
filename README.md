@@ -25,7 +25,7 @@ Before deploying Minio, ensure you have the following:
 
 #### Step 1: Create a Namespace for Minio
 
----bash 
+```bash 
 
 kubectl create namespace minio
 
@@ -33,14 +33,14 @@ kubectl create namespace minio
 ### Step 2: Deploy Minio with Persistent Storage
 
 
-Apply the provided Kubernetes YAML manifest to deploy Minio:
+### Apply the provided Kubernetes YAML manifest to deploy Minio:
 
 ---bash
 
 kubectl apply -f minio-deployment.yaml
 
 
-Step 3: Verify the Deployment
+### Step 3: Verify the Deployment
 
 ---bash
 
